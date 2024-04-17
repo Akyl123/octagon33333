@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p1>Консоль</p1> <br>
+    <a> Команда консоля пишется так console.log(19)</a><br>
+    <script>
+        // Комментарий можно оставить до строки кода 
+        console.log(19);
+         // Комментарий можно оставить после строки кода 
+         /*
+Так выглядит строчный комментарий 
+*/
+console.log(/*А можно даже внутри комментировать*/19);
+    </script>
+    <br><br>
+    <p1>Комментарии </p1><br>
+    // Комментарий можно оставить до строки кода <br>
+    console.log(19);<br>
+         // Комментарий можно оставить после строки кода <br>
+         /*<br>
+Так выглядит строчный комментарий <br>
+*/<br>
+console.log(/*А можно даже внутри комментировать*/19);
+<script>
+console.log(3.5 + 19);
+console.log(2024-1969);
+console.log(65 / 240);
+console.log(0.2708 * 100);
+console.log('hi' + 'ya'); // Prints 'hiya'
+console.log('wo' + 'ah'); // Prints 'woah'
+console.log('I love to ' + 'code.')
+// Prints 'I love to code.'
+console.log('Hello'.length); // Напечатает 5 т.к там 5 символов
+
+</script>
+<h1>Методы </h1>
+<script>
+    console.log('hello'.toUpperCase()); // Prints 'HELLO'
+    console.log('Hey'.startsWith('H')); // Prints true
+    
+</script>
+<h1>Встроенные объекты</h1>
+<script>
+    console.log(Math.random()); // Prints a random number between 0 and 1
+    console.log(Math.random()*50); //Чтобы сгенерировать случайное число от 0 до 50, мы могли бы умножить этот результат на 50, вот так
+    console.log(Math.floor(Math.random()*50)); //Math.floor() принимает десятичное число и округляет в меньшую сторону до ближайшего целого числа.
+    console.log(Math.floor(Math.ceil(43.8) ));//Округляет
+    console.log(Math.floor(Number.isInteger(2017) ));// Проверяет является число ли целым выведет 1 если TRUE
+</script>
+<h1>Переменные</h1>
+<a>переменные помечают данные и хранят их в памяти. Есть только несколько вещей, которые вы можете делать с переменными:
+    <br>
+
+    1)Создайте переменную с описательным именем.    <br>
+    2)Храните или обновляйте информацию, хранящуюся в переменной.    <br>
+    3)Ссылаются или “получают” информацию, хранящуюся в переменной.</a>
+    <br><br>
+    <a>
+var Сокращение от variable - это ключевое слово в JavaScript, которое создает или объявляет новую переменную.<br><br>
+myName это имя переменной. Использование заглавной буквы таким образом является стандартным соглашением в JavaScript, 
+<br>которое называется camel cashing . В верблюжьем корпусе вы группируете слова в одно, <br>
+первое слово пишется строчными буквами, тогда каждое последующее слово будет иметь свою первую букву в верхнем регистре. (например, camelCaseEverything).<br><br>
+= является оператором присваивания. Он присваивает значение ('Arya') переменной (myName).<br><br>
+'Arya' это значение, присвоенное (=) переменной myName. Вы также можете сказать, что myName переменная инициализируется значением 'Arya'.
+После объявления переменной строковое значение 'Arya' выводится на консоль путем ссылки на имя переменной: console.log(myName)
+    </a>\
+    <script>
+var favoriteFood = 'pizza';
+var numOfSlices = 8;
+console.log(favoriteFood);
+console.log(numOfSlices);
+let changeMe =  true ;
+changeMe = false;
+console.log(changeMe);
+const myNName = 'Gilberto';
+console.log(myName); //Однако const переменную нельзя переназначить, поскольку она является <em>постоянной</em>.
+let levelUp = 10;
+levelUp +=5;
+let powerLevel = 9001;
+powerLevel -=100;
+let multiplyMe = 32;
+multiplyMe *=11;
+let quarterMe = 1152;
+quarterMe /= 4;
+
+// Use the mathematical assignments in the space below:
+
+
+
+
+
+
+// These console.log() statements below will help you check the values of the variables.
+// You do not need to edit these statements. 
+console.log('The value of levelUp:', levelUp); 
+console.log('The value of powerLevel:', powerLevel); 
+console.log('The value of multiplyMe:', multiplyMe); 
+console.log('The value of quarterMe:', quarterMe);
+
+
+let favoriteAnimal = 'dog';
+console.log('My favorite animal:' + favoriteAnimal );// Объединение
+let myName = 'Akul';
+let myCity = 'St.Petersburg'
+console.log(`My name is ${myName}.My favorite city is ${myCity}`);
+    </script>
+</body>
+</html>
